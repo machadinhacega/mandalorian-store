@@ -15,6 +15,15 @@ const routes: Routes = [
     path: '',
     redirectTo: 'produtos',
     pathMatch: 'full'  //pra quando entrar no root da pagina
+  },
+  {
+    path: 'not-found',
+    loadChildren: () => import('./pages/not-found/not-found.module').then(m => m.NotFoundModule)
+  },
+  {
+    // quando entrar em qualquer outra coisa: **
+    path: '**',
+    redirectTo: 'not-found'
   }
 
 ];
