@@ -1,4 +1,10 @@
 <app-lista-item
-[listaItem]="itensDaLoja"
-(adicionarItemAoCarrinho)="adicionarItemAoCarrinho($event)"
+    [listaItem]="itensDaLoja"
+    (adicionarItemAoCarrinho)="adicionarItemAoCarrinho($event)"
 ></app-lista-item>
+
+<app-carrinho 
+    [carrinho]="carrinho"
+    (incrementarItem)="adicionarItemAoCarrinho($event)"
+    (decrementarItem)="removerItemDoCarrinho($event)"
+></app-carrinho>

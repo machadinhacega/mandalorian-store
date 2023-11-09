@@ -1,1 +1,18 @@
-<p>carrinho works!</p>
+<h3>Meu carrinho</h3>
+<div class="carrinho-vazio" *ngIf = "carrinho.length === 0">
+    Nenhum item no carrinho
+</div>
+<div class="carrinho" *ngIf = "carrinho.length > 0">
+    <div class="carrinho_item" *ngFor="let item of carrinho">
+        <span>{{item.productId}}</span>
+        <span>{{item.quantity}}</span>
+        <div class="carrinho_item_acoes">
+            <button class="carrinho_item_acoes_botao"
+                (click)="decrementar(item.productId)"
+                >-</button>
+            <button class="carrinho_item_acoes_botao"
+                (click)="incrementar(item.productId)"
+                >+</button>
+        </div>
+    </div>
+</div>

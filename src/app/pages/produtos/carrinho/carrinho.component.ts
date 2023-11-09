@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { ItemPedidoType } from 'src/app/types/pedidoType';
 
 @Component({
   selector: 'app-carrinho',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class CarrinhoComponent {
 
+  @Input() carrinho: ItemPedidoType[] = [];
+
+  @Output() incrementarItem = new EventEmitter<string>();
+  @Output() decrementarItem = new EventEmitter<string>();
+ 
+  public incrementar(id: string):void{
+    this.incrementarItem.emit(id);
+  }
+  public decrementar(id: string):void{
+    this.decrementarItem.emit(id);
+  }
 }
