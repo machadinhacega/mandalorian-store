@@ -7,6 +7,11 @@ import { ProdutosComponent } from './produtos.component';
 
 import { ProdutosService } from './produtos.service'
 
+import { ProdutosRoutingModule } from './produtos-routing.module';
+import { CarrinhoComponent } from './carrinho/carrinho.component'
+
+
+
 @NgModule({
   exports: [
     ProdutosComponent
@@ -15,12 +20,14 @@ import { ProdutosService } from './produtos.service'
   declarations: 
   [
     // se não tiver ProdutosComponent aqui tbm, vai quebrar
-    ProdutosComponent
+    ProdutosComponent,
+    CarrinhoComponent
   ],
 
   imports: [
     CommonModule, 
     ListaItemModule,
+    ProdutosRoutingModule,
   ],
   providers:[
     ProdutosService
