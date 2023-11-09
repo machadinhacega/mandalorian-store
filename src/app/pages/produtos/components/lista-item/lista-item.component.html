@@ -1,0 +1,8 @@
+<div class="lista-item container mt-3">
+    <app-card-item 
+    *ngFor="let item of listaItem" 
+    [item]="item" 
+    (adicionarAoCarrinho)="adicionar($event)">
+    
+    </app-card-item>
+</div>
