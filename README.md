@@ -1,6 +1,6 @@
 # Mandalorian - Loja Virtual
 
-![*capa do livro One Piece: Pirate Recipes](https://github.com/machadinhacega/Loja-virtual-mandalorian/blob/main/screenshot.png?raw=true)
+![*banner mandalorian store](https://github.com/machadinhacega/Loja-virtual-mandalorian/blob/main/screenshot.png?raw=true)
 
 
 Bem-vindo ao Mercado Mandaloriano, meu amigo caçador de recompensas! Este é um projeto que levará sua experiência de compra a galáxias distantes, permitindo que você adquira os mais raros e valiosos itens, tudo isso com a facilidade e estilo que só o Mandalorian pode oferecer.
@@ -60,4 +60,4 @@ Para implementações futuras, foi observado que se pode:
 # 
 ### Obrigada pela atenção e confira o resultado no botão abaixo:
 
-[<img src='verProjeto.png' alt='botao ver projeto' height='40'>](https://loja-virtual-mandalorian.vercel.app/produtos) 
+[<img src='verProjeto.png' alt='botao ver projeto' height='40'>](https://mandalorian-store-two.vercel.app) 
