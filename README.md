@@ -1,6 +1,6 @@
 # Mandalorian - Loja Virtual
 
-![*banner mandalorian store](https://github.com/machadinhacega/Loja-virtual-mandalorian/blob/main/screenshot.png?raw=true)
+![*banner mandalorian store](https://github.com/machadinhacega/mandalorian-store/blob/main/screenshot.png?raw=true)
 
 
 Bem-vindo ao Mercado Mandaloriano, meu amigo caçador de recompensas! Este é um projeto que levará sua experiência de compra a galáxias distantes, permitindo que você adquira os mais raros e valiosos itens, tudo isso com a facilidade e estilo que só o Mandalorian pode oferecer.
